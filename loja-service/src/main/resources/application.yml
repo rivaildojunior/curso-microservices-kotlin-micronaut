@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: lojaService
+  server:
+    port: -1
+
+
+kafka:
+  bootstrap:
+    servers: kafka-server:9092
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "ms-consul:8500"

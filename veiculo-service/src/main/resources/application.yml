@@ -1,0 +1,31 @@
+micronaut:
+  application:
+    name: veiculoService
+  server:
+    port: -1
+
+datasources:
+  default:
+    url: jdbc:postgresql://ms-postgres:5432/dbveiculo
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: '123456'
+    dialect: POSTGRES
+
+
+jpa:
+  default:
+    packages-to-scan:
+      - 'br.com.curso.model'
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
+        format_sql: true
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "ms-consul:8500"

@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: apiGateway
+  server:
+    port: 9090
+  config-client:
+    enabled: true
+
+consul:
+  client:
+    defaultZone: "ms-consul:8500"
+    registration:
+      enabled: true
+
+gateway:
+  services:
+    - veiculo-service
+    - loja-service
+    - relatorio-service
