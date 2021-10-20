@@ -4,7 +4,7 @@
 
 ## Instruções
 
-### Criar rede docker:
+### Criando rede no docker:
 
 ```
 docker network create micronaut-net
