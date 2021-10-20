@@ -1,7 +1,6 @@
 ## Arquitetura de Microserviços
 
-![image](https://user-images.githubusercontent.com/59898958/138009035-f76e47d2-a1f9-42ec-a5dd-63fe821985d2.png)
-
+![image](https://user-images.githubusercontent.com/59898958/138009488-ee7427b5-b824-41c2-adf4-084954ded4de.png)
 
 ## Instruções
 
